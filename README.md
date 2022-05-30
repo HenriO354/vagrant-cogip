@@ -1,3 +1,3 @@
 # vagrant-cogip
-## Installation:
+## Vagrant's Installation:
 
