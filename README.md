@@ -1,9 +1,12 @@
 # <center><b>Deploying the COGIP website using vagrant</center><br>
 ## Vagrant's Installation:
 ## Ansible Installation: [site](https://www.linuxtechi.com/how-to-install-ansible-on-ubuntu/)
-<br>
+
 
 Install Virtual Box
+
+[How to install VB on debian 10 buster](how-to-install-virtualBox-6.1-on-debian-10-buster.md#sub-section)
+
 
 - Start by updating the software packages to the latest version.
 
