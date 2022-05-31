@@ -1,4 +1,4 @@
-# vagrant-cogip<br>
+# <center>Deploying the COGIP website using vagrant</center><br>
 ## Vagrant's Installation:
 
 Install Virtual Box
