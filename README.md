@@ -53,7 +53,7 @@ Now you can setup a new machine using your favorite OS. Here we will use Debian 
 
 ## You can choose your own boxes from the official catalog.
 
-        vagrant init generic/debian10
+        vagrant init generic/ubuntu1804
 
 Now a new Vagrantfile will get created automatically and placed inside your current directory.
 
