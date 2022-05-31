@@ -3,7 +3,7 @@
 Install Vagrant and Virtualbox on your laptop if they are not already installed
 
 Create a Vagrant machine with an Ubuntu 18.04 image
-from the Vagrantfile used to create the virtual machine, run an ansible playbook [run-an-ansible-playbook]() that:
+from the Vagrantfile used to create the virtual machine, run an ansible playbook [run-an-ansible-playbook](https://www.learnitguide.net/2018/01/ansible-playbook-tutorial-with-examples.html) that:
 
 updates the VM
 if at least one pkg has been updated reboot the VM
