@@ -1,5 +1,6 @@
 # <center><b>Deploying the COGIP website using vagrant</center><br>
 ## Vagrant's Installation:
+## Ansible Installation: <site>
 
 Install Virtual Box
 
