@@ -1,6 +1,7 @@
 # <center><b>Deploying the COGIP website using vagrant</center><br>
 ## Vagrant's Installation:
-## Ansible Installation: <site>
+## Ansible Installation: [site](https://www.linuxtechi.com/how-to-install-ansible-on-ubuntu/)
+<br>
 
 Install Virtual Box
 
