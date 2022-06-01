@@ -1,5 +1,5 @@
-#!/usr/bin/bash
-
+#!/usr/bin/bash   ##  if security is a priority
+#!/usr/bin/env bash ## if we’re looking for portability.
 DBHOST=localhost
 DBNAME=cogip
 DBUSER=cogip
@@ -8,19 +8,19 @@ DBPASSWD=cogippass
 # Update Packages
 apt update
 # Upgrade Packages
-apt upgrade -y
+apt-get upgrade -y
 
 # Apache
-apt install -y apache2
+apt-get install -y apache2
 
 # Enable Apache Mods
 a2enmod rewrite
 
 # Install PHP
-apt install -y php
+apt-get install -y php
 
 # PHP Apache Mod
-apt install -y libapache2-mod-php
+apt-get install -y libapache2-mod-php
 
 # Restart Apache
 systemctl restart apache2
@@ -30,7 +30,7 @@ debconf-set-selections <<< 'mysql-server mysql-server/root_password password roo
 debconf-set-selections <<< 'mysql-server mysql-server/root_password_again password root'
 
 # Install MySQL
-apt install -y mysql-server
+apt-get install -y mysql-server
 
 # Create cogip database
 mysql -uroot -proot -e "CREATE DATABASE $DBNAME;"
@@ -45,7 +45,7 @@ mysql -uroot -proot $DBNAME < /var/www/html/database/cogip.sql
 mysql -uroot -proot $DBNAME -e "INSERT INTO user(username,password,mode) VALUES('Henri','henriassword','winner');"
 
 # PHP-MYSQL lib
-apt install -y php-mysql
+apt-get install -y php-mysql
 
 # Edit apache default config
 cp /var/wwww/html/000-default.conf /etc/apache2/sites-available/000-default.conf
