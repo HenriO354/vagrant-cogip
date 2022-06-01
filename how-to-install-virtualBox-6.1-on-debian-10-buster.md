@@ -7,7 +7,8 @@ Error messages:
 -Solution:
 
 "default: dpkg-preconfigure: unable to re-open stdin: No such file or directory"
--Solution:
+
+-Solution: [site](https://fixyacloud.wordpress.com/2020/01/26/dpkg-reconfigure-unable-to-re-open-stdin-no-file-or-directory/)
 
 "default: [Warning] Using a password on the command line interface can be insecure.
     default: mysql:"
