@@ -1,4 +1,5 @@
-#!/usr/bin/bash
+#!/user/bin/env bash
+# /usr/bin/bash
 
 DBHOST=localhost
 DBNAME=cogip
