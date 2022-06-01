@@ -17,7 +17,7 @@ Vagrant.configure("2") do |config|
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for   updates when the user runs
   # `vagrant box outdated`. This is not recommended.
-   config.vm.box_check_update = true  
+  # config.vm.box_check_update = true  
   # config.vm.provision "shell", inline: "echo hello BeCoders!: VM has updates have been checked"
   # config.vm.provider "virtualbox" do |vb|
   # Create a forwarded port mapping which allows access to a specific port
@@ -64,8 +64,8 @@ Vagrant.configure("2") do |config|
   # Enable provisioning with a shell script. Additional provisioners such as
   # Puppet, Chef, Ansible, Salt, and Docker are also available. Please see the
   # documentation for more information about their specific syntax and use.
-   config.vm.provision "shell", inline: <<-SHELL
-     apt-get update
-  #   apt-get install -y apache2
+   config.vm.provision "shell", path: <<-SHELL
+   # apt-get update
+   # apt-get install -y apache2
    SHELL
 end
