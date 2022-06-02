@@ -6,6 +6,17 @@ Error messages:
 "The following SSH command responded with a non-zero exit status"
 -Solution:
 
+"default: bash: /tmp/vagrant-shell: /usr/bin/bash: bad interpreter: No such file or directory
+The SSH command responded with a non-zero exit status. Vagrant
+assumes that this means the command failed. The output for this command
+should be in the log above. Please read the output to determine what
+went wrong."
+
+-Solution:
+
+"Err:6 http://security.ubuntu.com/ubuntu bionic-updates/main amd64 linux-libc-dev amd64 4.15.0-177.186 <b>404</b>  Not Found [IP: 91.189.91.38 80]"
+-Solution:
+
 "default: dpkg-preconfigure: unable to re-open stdin: No such file or directory"
 
 -Solution: [site](https://fixyacloud.wordpress.com/2020/01/26/dpkg-reconfigure-unable-to-re-open-stdin-no-file-or-directory/)
