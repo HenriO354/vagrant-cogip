@@ -6,7 +6,7 @@ DBUSER=cogip
 DBPASSWD=cogippass
 
 # Update Packages
-apt update
+apt-update
 # Upgrade Packages
 apt-get upgrade -y
 
