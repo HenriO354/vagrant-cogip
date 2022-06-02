@@ -6,6 +6,13 @@ Error messages:
 "The following SSH command responded with a non-zero exit status"
 -Solution:
 
+"A Virtualbox Guest Additions installation was found but no tools to rebuild or start them.
+Got different reports about installed GuestAdditions version:
+Virtualbox on your host claims:   5.2.8
+VBoxService inside the vm claims: 5.2.42"
+
+-Solution:[site](https://subscription.packtpub.com/book/virtualization-and-cloud/9781786464910/1/ch01lvl1sec12/enabling-virtualbox-guest-additions-in-vagrant)
+
 "default: bash: /tmp/vagrant-shell: /usr/bin/bash: bad interpreter: No such file or directory
 The SSH command responded with a non-zero exit status. Vagrant
 assumes that this means the command failed. The output for this command
