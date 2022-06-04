@@ -1,5 +1,4 @@
-#!/usr/bin/bash   ##  if security is a priority
-#!/usr/bin/env bash ## if we’re looking for portability.
+#!/usr/bin/bash
 DBHOST=localhost
 DBNAME=cogip
 DBUSER=cogip
@@ -42,7 +41,7 @@ mysql -uroot -proot -e "FLUSH PRIVILEGES;"
 # Create tables into cogip database
 mysql -uroot -proot $DBNAME < /var/www/html/database/cogip.sql
 # Insert a user into user table
-mysql -uroot -proot $DBNAME -e "INSERT INTO user(username,password,mode) VALUES('Henri','henriassword','winner');"
+mysql -uroot -proot $DBNAME -e "INSERT INTO user(username,password,mode) VALUES('Henri','henripassword','winner');"
 
 # PHP-MYSQL lib
 apt-get install -y php-mysql
