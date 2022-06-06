@@ -1,1 +1,1 @@
-{"name":"generic/ubuntu1804","version":"4.0.2","provider":"virtualbox","directory":"boxes/generic-VAGRANTSLASH-ubuntu1804/4.0.2/virtualbox"}
+{"name":"ubuntu/focal64","version":"20220530.0.0","provider":"virtualbox","directory":"boxes/ubuntu-VAGRANTSLASH-focal64/20220530.0.0/virtualbox"}
